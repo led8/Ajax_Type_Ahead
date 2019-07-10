@@ -4,7 +4,7 @@ const cities = new Array;
 
 fetch(endpoint)
   .then(function(blob){
-    blob.json()
+    blob.json();
   .then(function(data){
     cities.push(...data);
   });
